@@ -5,6 +5,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 @NgModule({
   declarations: [],
@@ -17,6 +18,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     }),
     NgxGalleryModule,
     NgxSpinnerModule.forRoot({ type: 'line-scale-party' }),
+    BsDatepickerModule.forRoot(),
   ],
   exports: [
     BsDropdownModule,
@@ -24,6 +26,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     TabsModule,
     NgxGalleryModule,
     NgxSpinnerModule,
+    BsDatepickerModule,
   ],
 })
 export class SharedModule {}
