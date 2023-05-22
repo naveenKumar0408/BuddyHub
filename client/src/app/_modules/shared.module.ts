@@ -9,6 +9,7 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { TimeagoModule } from 'ngx-timeago';
+import { FileUploadModule } from 'ng2-file-upload';
 @NgModule({
   declarations: [],
   imports: [
@@ -20,6 +21,7 @@ import { TimeagoModule } from 'ngx-timeago';
     }),
     NgxGalleryModule,
     NgxSpinnerModule.forRoot({ type: 'line-scale-party' }),
+    FileUploadModule,
     BsDatepickerModule.forRoot(),
     PaginationModule.forRoot(),
     ButtonsModule.forRoot(),
@@ -31,6 +33,7 @@ import { TimeagoModule } from 'ngx-timeago';
     TabsModule,
     NgxGalleryModule,
     NgxSpinnerModule,
+    FileUploadModule,
     BsDatepickerModule,
     PaginationModule,
     ButtonsModule,
