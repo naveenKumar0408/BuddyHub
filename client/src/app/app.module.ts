@@ -28,6 +28,8 @@ import { HasRoleDirective } from './_directives/has-role.directive';
 import { UserManagementComponent } from './admin/user-management/user-management.component';
 import { PhotoManagementComponent } from './admin/photo-management/photo-management.component';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
+import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
+import { RolesModalComponent } from './modals/roles-modal/roles-modal.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,8 @@ import { PhotoEditorComponent } from './members/photo-editor/photo-editor.compon
     UserManagementComponent,
     PhotoManagementComponent,
     PhotoEditorComponent,
+    MemberMessagesComponent,
+    RolesModalComponent,
   ],
   imports: [
     BrowserModule,

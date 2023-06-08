@@ -10,6 +10,7 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { TimeagoModule } from 'ngx-timeago';
 import { FileUploadModule } from 'ng2-file-upload';
+import { ModalModule } from 'ngx-bootstrap/modal';
 @NgModule({
   declarations: [],
   imports: [
@@ -26,6 +27,7 @@ import { FileUploadModule } from 'ng2-file-upload';
     PaginationModule.forRoot(),
     ButtonsModule.forRoot(),
     TimeagoModule.forRoot(),
+    ModalModule.forRoot()
   ],
   exports: [
     BsDropdownModule,
@@ -38,6 +40,7 @@ import { FileUploadModule } from 'ng2-file-upload';
     PaginationModule,
     ButtonsModule,
     TimeagoModule,
+    ModalModule
   ],
 })
-export class SharedModule {}
+export class SharedModule { }
